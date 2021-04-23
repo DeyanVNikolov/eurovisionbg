@@ -46,6 +46,10 @@ button:hover {
     float: right;
     font-family: sans-serif;
 }
+.visited{
+    background-color: green;
+    color:black
+}
 #disabled{
     
         display: inline-block;

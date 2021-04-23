@@ -16,7 +16,10 @@ border-radius: 10px;
     font-family: sans-serif;
     font-size: xx-large;
 }
-
+.visited{
+    background-color: green;
+    color:black
+}
 button{
     margin:5px;
     border: 0;
