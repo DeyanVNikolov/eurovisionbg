@@ -19,6 +19,10 @@ border-radius: 10px;
     font-size: xx-large;
 }
 
+.info{
+    text-align: center;
+  }
+
 button{
     margin:5px;
     border: 0;

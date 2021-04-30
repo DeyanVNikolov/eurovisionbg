@@ -11,7 +11,9 @@ h1{
   background-color: green;
   color:black
 }
-
+.info{
+  text-align: center;
+}
 h2{
     font-family: sans-serif;
     animation: textAnim 1s ease 0s 1 normal forwards;
