@@ -31,9 +31,7 @@ table{
 .begin{
   text-align: center;
 }
-.history{
-  background-color: rgb(79, 185, 255);
-}
+
 .content_table, .col1 {
     border-color: black;
     font-family: sans-serif;
