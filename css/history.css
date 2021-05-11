@@ -7,6 +7,17 @@ h1{
     color: rgb(255, 44, 44);
     animation: textAnim 1s ease 0s 1 normal forwards;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 .visited{
   background-color: green;
   color:black
@@ -30,6 +41,9 @@ table{
   background-color: #2483ff;
 }
 .begin{
+  text-align: center;
+}
+.twitter-timeline{
   text-align: center;
 }
 
