@@ -198,8 +198,12 @@ code {
   [class="navbarmobile"] {
     display:initial
   }
+        [class*="iframe-vid"]{
+          width: 600px;
+          height: 330px;
 }
-  @media only screen and (min-width:977px) {
+}
+  @media all and (min-width:977px) {
     /* For mobile phones: */
     [class="navbartest"] {
       display:initial
@@ -207,6 +211,22 @@ code {
     [class="navbarmobile"] {
       display: none;
     }
+    [class*="iframe-vid"]{
+      width: 760px;
+      height: 415px;
+}
+}
+@media all and (max-width:634px) {
+  [class*="iframe-vid"]{
+    width: 360px;
+    height: 215px;
+}
+}
+@media all and (max-width:320px) {
+  [class*="iframe-vid"]{
+    width: 220px;
+    height: 115px;
+}
 }
 
 h1{
