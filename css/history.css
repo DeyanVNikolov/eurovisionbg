@@ -231,7 +231,7 @@ h3{
 }
 table{
   text-align: center;
-  background-color: #2483ff;
+  background-color: #60a5ffd3;
 }
 .begin{
   text-align: center;
@@ -254,7 +254,7 @@ table{
     border-radius: 50px;
 }
 .col3{
-    background-color: rgb(255, 58, 58);
+    background-color: rgb(255, 94, 94);
     border-color: black;
     font-family: sans-serif;
     font-size:large;
