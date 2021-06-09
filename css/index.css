@@ -201,7 +201,12 @@ code {
         [class*="iframe-vid"]{
           width: 600px;
           height: 330px;
-}
+		}
+	 [class*="imgcan"]{
+		width: 600px;
+		height: 350px
+		  }
+
 }
   @media all and (min-width:977px) {
     /* For mobile phones: */
@@ -221,13 +226,32 @@ code {
     width: 360px;
     height: 215px;
 }
+[class*="imgcan"]{
+	width: 400px;
+	height: 250px
+	  }
 }
 @media all and (max-width:320px) {
   [class*="iframe-vid"]{
     width: 220px;
     height: 115px;
 }
+[class*="imgcan"]{
+	width: 220px;
+	height: 50px
+	  }
 }
+
+@media all and (max-width:444px) {
+	[class*="iframe-vid"]{
+	  width: 220px;
+	  height: 115px;
+  }
+  [class*="imgcan"]{
+	  width: 300px;
+	  height: 150px
+		}
+  }
 
 h1{
     font-family: sans-serif;
